@@ -48,9 +48,10 @@ h6 {
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.7;
   margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 section {
@@ -435,4 +436,32 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+.portfolio-blue {
+  background-color: #E3FAFF;
+}
+
+.section-red {
+  background: #FFE3E3;
+  display: block;
+}
+
+.section-title {
+  display: block;
+  background-color: #FFE3E3;
+}
+
+.section-title h3 {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.5rem;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #8F8F8F;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }

@@ -500,6 +500,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background-color: #FFE3E3;
 }
 
+.highlight-text-work {
+  padding: 10px;
+  background-color: #E3FAFF;
+}
+
 .section-title h3 {
   font-family: Roboto Mono;
   font-style: normal;
@@ -512,6 +517,12 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.about-me {
+  display: block;
+  padding: 10px;
+  background-color: #E3FAFF;
 }
 
 .bg-red {

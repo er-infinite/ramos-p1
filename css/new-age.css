@@ -50,12 +50,11 @@ h6 {
 p {
   font-size: 15px;
   line-height: 1.7;
-  margin-bottom: 20px;
   font-family: 'Open Sans', sans-serif;
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 section h2 {
@@ -464,4 +463,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.bg-red {
+  background: #FFE3E3;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFE3E3), to(#ffcaca));
+  background: linear-gradient(#FFE3E3, #ffcaca);
 }

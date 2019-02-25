@@ -23,3 +23,9 @@
   color: #8F8F8F;
   align-items: center;
 }
+
+.bg-red {
+    background: $theme-red;
+    background: -webkit-linear-gradient($theme-red, darken($theme-red, 5%));
+    background: linear-gradient($theme-red, darken($theme-red, 5%));
+}

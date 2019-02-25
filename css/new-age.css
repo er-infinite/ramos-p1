@@ -441,9 +441,58 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background-color: #E3FAFF;
 }
 
-.section-red {
-  background: #FFE3E3;
+.knewave-1 {
+  font-family: 'Knewave', cursive;
+  font-size: 32px;
+  color: #8F8F8F;
+  text-transform: uppercase;
+  border-top: 10px dotted #FFE3E3;
+  border-bottom: 10px dotted #FFE3E3;
+}
+
+.knewave-2 {
+  font-family: 'Knewave', cursive;
+  font-size: 32px;
+  color: #8F8F8F;
+  text-transform: uppercase;
+  border-top: 10px dotted #FFF2E3;
+  border-bottom: 10px dotted #FFF2E3;
+}
+
+.knewave-3 {
+  font-family: 'Knewave', cursive;
+  font-size: 32px;
+  color: #8F8F8F;
+  text-transform: uppercase;
+  border-top: 10px dotted #EAFFE3;
+  border-bottom: 10px dotted #EAFFE3;
+}
+
+.work-block-1 {
   display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.highlight-text {
+  display: block;
+  background-color: #E3FAFF;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.3em;
+  color: #8F8F8F;
+  font-weight: light;
+}
+
+.robotomono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.about-subheading {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 22px;
 }
 
 .section-title {

@@ -3,8 +3,62 @@
 }
 
 .section-red{
-  background: $theme-red;
+
+}
+
+.knewave-1{
+  font-family: 'Knewave', cursive;
+  font-size: 32px;
+  color: #8F8F8F;
+  text-transform: uppercase;
+  border-top: 10px dotted $theme-red;
+  border-bottom: 10px dotted $theme-red;
+}
+
+.knewave-2{
+  font-family: 'Knewave', cursive;
+  font-size: 32px;
+  color: #8F8F8F;
+  text-transform: uppercase;
+  border-top: 10px dotted $theme-yellow;
+  border-bottom: 10px dotted $theme-yellow;
+}
+
+.knewave-3{
+  font-family: 'Knewave', cursive;
+  font-size: 32px;
+  color: #8F8F8F;
+  text-transform: uppercase;
+  border-top: 10px dotted $theme-green;
+  border-bottom: 10px dotted $theme-green;
+}
+
+.work-block-1{
+  // display: block;
+  // background-color: $theme-primary;
   display: block;
+  object-fit: cover;
+}
+
+.highlight-text{
+  display:block;
+  background-color: $theme-blue;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.3em;
+  color: #8F8F8F;
+  font-weight: light;
+}
+
+.robotomono{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.about-subheading{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 22px;
 }
 
 .section-title{
